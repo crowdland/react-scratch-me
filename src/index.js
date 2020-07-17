@@ -17,10 +17,10 @@ const ScratchMe = ({
 	const [isCompleted, setIsCompleted] = useState(completedAt === 0);
 
 	useEffect(() => {
-		rascaInit();
+		scratchMeInit();
 	}, []);
 
-	const rascaInit = () => {
+	const scratchMeInit = () => {
 		// Set up both canvases and get the 2d contexts
 
 		const foregroundCanvas = foregroundCanvasRef.current;

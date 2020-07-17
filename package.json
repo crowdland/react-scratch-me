@@ -1,6 +1,6 @@
 {
   "name": "react-scratch-me",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Scratch Card component for React",
   "main": "dist/index.js",
   "repository": {
