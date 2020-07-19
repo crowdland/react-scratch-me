@@ -4,6 +4,15 @@
 
 https://crowdland.github.io/react-scratch-me/
 
+## Installation
+
+```
+// using npm
+npm install react-scratch-me --save
+// using yarn
+yarn add react-scratch-me
+```
+
 ## Sample usage
 
 ```
@@ -32,11 +41,11 @@ export default MyPage;
 
 | Name | Type | Description | Default value | Required |
 | - | - | - | - | - |
-| width | int | The width of the component | none | yes |
-| height | int | The height of the component | none | yes |
-| foregroundImageSrc | string | Image to use as foreground | none | yes |
-| backgroundImageSrc | string | Image to use as background | none | yes |
-| strokeWidth | int | The width of the stroke as you erase the foreground image | 20 | no |
-| onProgress | function | You can provide a function to be executed as the scratching progresses. It will return the current cleared percentage. | none | no |
+| width | number | Width of the component | none | yes |
+| height | number | Height of the component | none | yes |
+| foregroundImageSrc | string | The image to use as foreground (what the user will scratch) | none | yes |
+| backgroundImageSrc | string | The image to use as background (what will be revealed) | none | yes |
+| strokeWidth | number | Width of the stroke as you erase the foreground image | 20 | no |
+| onProgress | function | Function to be executed as the scratching progresses. It will return the current cleared percentage. | none | no |
 | onCompleted | function | Function to execute when the scratch card has been completed | none | no |
-| completedAt | int | Percentage to consider the scratch card to be completed | 50 | no |
+| completedAt | number | Percentage to consider the scratch card to be completed | 50 | no |
